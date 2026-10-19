@@ -1,0 +1,429 @@
+question,answer
+مَدْرَسَة,Okul
+كِتاب,Kitap
+قَلَم,Kalem
+مُعَلِّم,Öğretmen
+طالِب,Öğrenci
+حَقيبَة,Çanta
+بَيْت,Ev
+أُمّ,Anne
+أَب,Baba
+جَدّ,Dede
+جَدَّة,Anneanne/Babaanne
+أَخ,Erkek Kardeş
+أُخْت,Kız Kardeş
+حَديقَة,Bahçe
+غُرْفَة,Oda
+نافِذَة,Pencere
+باب,Kapı
+مَطْبَخ,Mutfak
+حَمّام,Banyo
+سَرير,Yatak
+كُرْسي,Sandalye
+طاوِلَة,Masa
+سَبُّورَة,Tahta
+صَفّ,Sınıf
+مَكْتَبَة,Kütüphane
+مُسْتَشْفى,Hastane
+طَبيب,Doktor
+مُمَرِّضَة,Hemşire
+خُبْز,Ekmek
+ماء,Su
+حَليب,Süt
+شاي,Çay
+قَهْوَة,Kahve
+فُطور,Kahvaltı
+غَداء,Öğle Yemeği
+عَشاء,Akşam Yemeği
+فاكِهَة,Meyve
+تُفّاح,Elma
+مَوْز,Muz
+بُرْتُقال,Portakal
+سَمَك,Balık
+دَجاج,Tavuk
+رُزّ,Pirinç/Pilav
+جُبْن,Peynir
+بَيْض,Yumurta
+شاتِئ,Sahil
+بَحْر,Deniz
+جَبَل,Dağ
+سَماء,Gökyüzü
+شَمْس,Güneş
+قَمَر,Ay
+شَجَرَة,Ağaç
+زَهْرَة,Çiçek
+كَلْب,Köpek
+قِطَّة,Kedi
+حِصان,At
+عُصْفور,Kuş
+أَسَد,Aslan
+فِيل,Fil
+جَمَل,Deve
+سَيّارَة,Araba
+حافِلَة,Otobüs
+طائِرَة,Uçak
+دَرّاجَة,Bisiklet
+قِطار,Tren
+سَفينَة,Gemi
+يَوْم,Gün
+أُسْبوع,Hafta
+شَهْر,Ay (zaman)
+سَنَة,Yıl
+صَباح,Sabah
+مَساء,Akşam
+لَيْل,Gece
+ساعَة,Saat
+وَقْت,Vakit
+صَلاة,Namaz
+مَسْجِد,Cami
+قُرْآن,Kuran
+دُعاء,Dua
+رَمَضان,Ramazan
+عيد,Bayram
+يَد,El
+رَأْس,Baş
+عَيْن,Göz
+أُذُن,Kulak
+أَنْف,Burun
+فَم,Ağız
+رِجْل,Ayak
+لَوْن,Renk
+أَبْيَض,Beyaz
+أَسْوَد,Siyah
+أَحْمَر,Kırmızı
+أَزْرَق,Mavi
+أَخْضَر,Yeşil
+أَصْفَر,Sarı
+كَبير,Büyük
+صَغير,Küçük
+طَويل,Uzun
+قَصير,Kısa
+جَميل,Güzel
+باب,Kapı
+حَقيبَة,Çanta
+عَمَل,İş / Çalışma
+مُهَنْدِس,Mühendis
+مَدينَة,Şehir
+قَرْيَة,Köy
+سُوق,Çarşı / Pazar
+مَطْعَم,Restoran
+فُنْدُق,Otel
+طَريق,Yol
+جَواز سَفَر,Pasaport
+تَذْكِرَة,Bilet
+مَطار,Havalimanı
+حِذاء,Ayakkabı
+ثَوْب,Elbise
+نَظّارَة,Gözlük
+مِفْتاح,Anahtar
+هاتف,Telefon
+حاسوب,Bilgisayar
+صَيْدَلِيَّة,Eczane
+مَصْرِف,Banka
+مَلْعَب,Saha / Stadyum
+كُرَة,Top
+سَماعات,Kulaklık
+مِرْآة,Ayna
+سِكّين,Bıçak
+مِلْعَقَة,Kaşık
+شَوْكَة,Çatal
+صَحْن,Tabak
+كُوب,Bardak
+لَحْم,Et
+مِلْح,Tuz
+سُكَّر,Şeker
+عَسَل,Bal
+زَيْت,Yağ
+خُضار,Sebze
+بَطاطِس,Patates
+طَمـاطِم,Domates
+خِيار,Salatalık
+بَصَل,Soğan
+ثَوْم,Sarımsak
+دَواء,İlaç
+مَرَض,Hastalık
+صِحَّة,Sağlık
+أَلَم,Ağrı / Acı
+قَلْب,Kalp
+لِسان,Dil
+سِنّ,Diş
+صَدْر,Göğüs
+ظَهْر,Sırt
+رُكْبَة,Diz
+جِلْد,Deri / Cilt
+بَشَر,İnsan
+رَجُل,Adam
+امْرَأَة,Kadın
+طِفْل,Çocuk
+شـاب,Genç
+شَيْخ,Yaşlı / Şeyh
+صَديق,Arkadaş
+عَدُوّ,Düşman
+جـار,Komşu
+ضَيْف,Misafir
+حَياة,Hayat
+مَوْت,Ölüm
+سَلام,Barış / Selam
+حَرْب,Savaş
+عِلْم,İlim / Bilim
+مَعْرِفَة,Bilgi
+سُؤال,Soru
+جَواب,Cevap
+امْتِحان,Sınav
+نَجاح,Başarı
+خَطَأ,Hata
+صَواب,Doğru
+كَلام,Söz / Konuşma
+صَوْت,Ses
+ريح,Rüzgar
+مَطَر,Yağmur
+ثَلْج,Kar
+سَحاب,Bulut
+غابَة,Orman
+صَحْراء,Çöl
+كَوْكَب,Gezegen
+نَجْم,Yıldız
+نار,Ateş
+تُراب,Toprak / Toz
+هَواء,Hava
+بَرْد,Soğuk
+حَرّ,Sıcak
+جَديد,Yeni
+قَديم,Eski
+سَريع,Hızlı
+بَطِيء,Yavaş
+قَوِيّ,Güçlü
+ضَعيف,Zayıf / Güçsüz
+غَنِيّ,Zengin
+فَقير,Fakir
+غالي,Pahalı
+رَخيص,Ucuz
+سَهْل,Kolay
+صَعْب,Zor
+نَظيف,Temiz
+حَاسُوب,Bilgisayar
+شَاشَة,Ekran
+لَوْحَةُ المَفَاتِيح,Klavye
+مَوْقِع,İnternet sitesi
+بَرِيدٌ إِلِكْتُرُونِيّ,E-posta
+كَلِمَةُ المُرُور,Şifre
+اِتِّصَال,Bağlantı / İletişim
+تَطْبِيق,Uygulama
+مُسْتَشْفَى,Hastane
+صَيْدَلِيَّة,Eczane
+مَرِيض,Hasta
+عِيَادَة,Klinik
+أَلَم,Ağrı / Acı
+فَحْص,Muayene / Kontrol
+نَظَّارَة,Gözlük
+عَمَلِيَّة,Ameliyat / İşlem
+سِعْر,Fiyat
+تَخْفِيض,İndirim
+زَبُون,Müşteri
+مَتْجَر,Mağaza / Dükkan
+نَقْد,Nakit
+بِطَاقَة,Kart
+سُوق,Pazar / Çarşı
+مَحْفَظَة,Cüzdan
+طَيَّار,Pilot
+مُهَنْدِس,Mühendis
+مُحَاسِب,Muhasebeci
+مُمَرِّضَة,Hemşire
+صَحَفِيّ,Gazeteci
+مَحَامٍ,Avukat
+جَيْش,Ordu
+شُرْطِيّ,Polis
+سَفِير,Büyükelçi
+وِزَارَة,Bakanlık
+قَانُون,Kanun / Hukuk
+جَامِعَة,Üniversite
+مُحَاضَرَة,Ders / Konferans
+مَكْتَبَة,Kütüphane
+اِمْتِحَان,Sınav
+شَهَادَة,Diploma / Belge
+تَعْلِيم,Eğitim
+بَحْث,Araştırma
+قَلَمُ الرَّصَاص,Kurşun Kalem
+مِمْحَاة,Silgi
+سَفِينَة,Gemi
+قِطَار,Tren
+دَرَّاجَة,Bisiklet
+حَافِلَة,Otobüs
+شَاحِنَة,Kamyon
+مَحَطَّة,İstasyon / Durak
+مَطَار,Havalimanı
+رِحْلَة,Yolculuk / Sefer
+حَقِيبَةُ السَّفَر,Valiz
+فُنْدُق,Otel
+سِيَاحَة,Turizm
+جَبَل,Dağ
+غَابَة,Orman
+نَهْر,Nehir
+بَحْر,Deniz
+مَطَر,Yağmur
+ثَلْج,Kar
+رِيح,Rüzgar
+شَمْس,Güneş
+قَمَر,Ay
+نَجْمَة,Yıldız
+كَوْكَب,Gezegen
+بِيئَة,Çevre
+تَلَوُّث,Kirlilik
+حَدِيقَة,Bahçe / Park
+زَهْرَة,Çiçek
+شَجَرَة,Ağaç
+عُشْب,Ot / Çimen
+فَجْر,Şafak / Tan vakti
+ظُهْر,Öğle
+مَسَاء,Akşam
+لَيْل,Gece
+عُطْلَة,Tatil
+مَوْعِد,Randevu
+دَقِيقَة,Dakika
+ثَانِيَة,Saniye
+أُسْبُوع,Hafta
+شَهْر,Ay (zaman)
+سَنَة,Yıl
+مَطْبَخ,Mutfak
+مِلْعَقَة,Kaşık
+شَوْكَة,Çatal
+سِكِّين,Bıçak
+طَبَق,Tabak
+كُوب,Bardak
+مِلْح,Tuz
+سُكَّر,Şeker
+زَيْت,Yağ
+حَلِيب,Süt
+جُبْن,Peynir
+بَيْض,Yumurta
+لَحْم,Et
+سَمَك,Balık
+أَرُزّ,Pirinç / Pilav
+خُضَار,Sebze
+فَاكِهَة,Meyve
+تُفَّاح,Elma
+مَوْز,Muz
+عَصِير,Meyve suyu
+قَهْوَة,Kahve
+شَاي,Çay
+خُبْز,Ekmek
+طَاوِلَة,Masa
+كُرْسِيّ,Sandalye
+سَرِير,Yatak
+خِزَانَة,Dolap
+بَاب,Kapı
+نَافِذَة,Pencere
+غُرْفَة,Oda
+حَمَّام,Banyo
+صَابُون,Sabun
+مِنْشَفَة,Havlu
+سَجَّادَة,Halı
+مِرْآة,Ayna
+مِفْتَاح,Anahtar
+هَاتِف,Telefon
+صُورَة,Resim / Fotoğraf
+رَسَائِل,Mesajlar
+هَوَاء,Hava
+تُرَاب,Toprak
+حَجَر,Taş
+رَمْل,Kum
+مَدِينَة,Şehir
+قَرْيَة,Köy
+شَارِع,Cadde / Sokak
+طَرِيق,Yol
+مَيْدَان,Meydan
+بِنَاء,Bina
+عِمَارَة,Apartman
+جِسْر,Köprü
+مَصْنَع,Fabrika
+مَسْجِد,Cami
+كَنِيسَة,Kilise
+مَتْحَف,Müze
+مَسْرَح,Tiyatro
+سِينِمَا,Sinema
+مَلْعَب,Saha / Stadyum
+سِبَاحَة,Yüzme
+جَرْي,Koşu
+كُرَةُ القَدَم,Futbol
+سَلَّة,Basket (veya sepet)
+لُعْبَة,Oyun / Oyuncak
+فَرِيق,Takım
+بَطَل,Şampiyon / Kahraman
+جَائِزَة,Ödül
+نَجَاح,Başarı
+فَرَح,Sevinç
+حُزْن,Üzüntü
+غَضَب,Öfke
+خَوْف,Korku
+أَمَل,Umut
+ثِقَة,Güven
+حُبّ,Sevgi / Aşk
+سَلام,Barış
+حُرِّيَّة,Özgürlük
+عَدَالَة,Adalet
+حَقِيقَة,Gerçek
+كَذِب,Yalan
+صِدْق,Doğruluk
+أَمَانَة,Güvenilirlik
+صَبْر,Sabır
+عَقْل,Akıl
+فِكْرَة,Fikir
+رَأْي,Görüş / Fikir
+سُؤَال,Soru
+جَوَاب,Cevap
+كَلام,Konuşma / Söz
+لُغَة,Dil
+قِصَّة,Hikaye
+رِوَايَة,Roman
+شِعْر,Şiir
+صَوْت,Ses
+لَوْن,Renk
+شَكْل,Şekil
+حَجْم,Boyut / Hacim
+وَزْن,Ağırlık
+طُول,Boy / Uzunluk
+عَرْض,Genişlik
+عُمْق,Derinlik
+سُرْعَة,Hız
+قُوَّة,Güç
+ضَعْف,Zayıflık
+غَنِيّ,Zengin
+فَقِير,Fakir
+قَوِيّ,Güçlü
+ضَعِيف,Zayıf / Güçsüz
+سَرِيع,Hızlı
+بَطِيء,Yavaş
+كَبِير,Büyük
+صَغِير,Küçük
+طَوِيل,Uzun
+قَصِير,Kısa
+جَمِيل,Güzel
+قَبِيح,Çirkin
+جَدِيد,Yeni
+قَدِيم,Eski
+سَهْل,Kolay
+صَعْب,Zor
+بَعِيد,Uzak
+قَرِيب,Yakın
+حَارّ,Sıcak
+بَارِد,Soğuk
+كَثِير,Çok
+قَلِيل,Az
+مُهِمّ,Önemli
+غَالٍ,Pahalı
+رَخِيص,Ucuz
+نَظِيف,Temiz
+وَسِخ,Kirli
+سَعِيد,Mutlu
+حَزِين,Üzgün
+مَشْغُول,Meşgul
+نَائِم,Uyuyan
+مَفْتُوح,Açık
+مُغْلَق,Kapalı
+مَلِيء,Dolu
+فَارِغ,Boş
+وَاضِح,Net / Açık
+غَامِض,Belirsiz / Gizemli
+مُتَأَخِّر,Geç
+مُبَكِّر,Erken
+ثَقِيل,Ağır

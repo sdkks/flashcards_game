@@ -1,0 +1,501 @@
+question,answer
+يسار,sol
+يمين,sağ
+مستقيم,düz
+شمال,kuzey
+جنوب,güney
+شرق,doğu
+غرب,batı
+فوق,yukarı
+تحت,aşağı
+قريب,yakın
+بعيد,uzak
+هنا,burada
+هناك,orada
+أمام,ileri
+خلف,geri
+زاوية,köşe
+تقاطع,kavşak
+دوار,döner kavşak
+إشارة مرور,trafik lambası
+رصيف,kaldırım
+شارع,sokak
+جادة,cadde
+طريق سريع,otoyol
+طريق,yol
+ممر,geçit
+جسر,köprü
+نفق,tünel
+مخرج,çıkış
+مدخل,giriş
+موقف,durak
+انعطف,dön
+اعبر,karşıya geç
+تابع,devam et
+خريطة,harita
+اتجاه,yön
+لافتة,tabela
+ممر مشاة,yaya geçidi
+زقاق,ara sokak
+ميدان,meydan
+حي,mahalle
+وجهة,varış noktası
+مسار,güzergah
+اختصار,kestirme
+بجانب,yanında
+أمام,önünde
+وراء,arkasında
+بين,arasında
+نحو,doğru
+حول,etrafında
+طريق فرعي,yan yol
+منعطف,viraj
+مفترق طرق,yol ayrımı
+ممنوع الدخول,giriş yasak
+اتجاه واحد,tek yön
+منطقة,bölge
+ضواحي,banliyö
+وسط المدينة,şehir merkezi
+حارة,şerit
+موقف سيارات,otopark
+محطة وقود,benzin istasyonu
+كوبري,üst geçit
+نهاية الطريق,çıkmaz sokak
+على اليمين,sağda
+على اليسار,solda
+في الأمام,ileride
+في الخلف,geride
+بالقرب من,yakınında
+بعيداً عن,uzağında
+مقابل,karşısında
+الطابق العلوي,üst kat
+الطابق السفلي,alt kat
+الطريق الرئيسي,ana yol
+الطريق الجانبي,yan yol
+ممر سفلي,alt geçit
+حدود,sınır
+جهة,taraf
+مكان,yer
+موقع,konum
+إحداثيات,koordinatlar
+سيارة,araba
+حافلة,otobüs
+قطار,tren
+طائرة,uçak
+دراجة,bisiklet
+دراجة نارية,motosiklet
+تاكسي,taksi
+مترو,metro
+ترام,tramvay
+سفينة,gemi
+عبّارة,feribot
+مروحية,helikopter
+شاحنة,kamyon
+سيارة نقل,minibüs
+إسعاف,ambulans
+محطة,istasyon
+مطار,havalimanı
+ميناء,liman
+تذكرة,bilet
+مقعد,koltuk
+نافذة,pencere kenarı
+ممر,koridor
+أمتعة,bagaj
+حقيبة,bavul
+جواز سفر,pasaport
+سائق,şoför
+راكب,yolcu
+رصيف القطار,peron
+سكة حديد,demiryolu
+ركوب,binmek
+هبوط,iniş
+إقلاع,kalkış
+سرعة,hız
+بنزين,benzin
+عجلة,tekerlek
+محرك,motor
+حزام الأمان,emniyet kemeri
+مقود,direksiyon
+فرامل,fren
+دواسة الوقود,gaz pedalı
+لوحة ترخيص,plaka
+موقف,park yeri
+مرور,trafik
+ازدحام,trafik sıkışıklığı
+رسوم,ücret
+رحلة,yolculuk
+ذهاب,gidiş
+عودة,dönüş
+جدول مواعيد,tarife
+تأخير,gecikme
+وصول,varış
+مغادرة,kalkış
+محطة مترو,metro istasyonu
+مدرج,pist
+كابينة,kabin
+طيار,pilot
+مضيفة,hostes
+قبطان,kaptan
+ركاب,yolcular
+حجز,rezervasyon
+درجة أولى,birinci sınıf
+درجة سياحية,ekonomi sınıf
+صالة الانتظار,bekleme salonu
+جمارك,gümrük
+تأشيرة,vize
+تفاحة,elma
+موز,muz
+برتقال,portakal
+فراولة,çilek
+عنب,üzüm
+ليمون,limon
+بطيخ,karpuz
+خوخ,şeftali
+كمثرى,armut
+كرز,kiraz
+خبز,ekmek
+أرز,pirinç
+معكرونة,makarna
+لحم,et
+دجاج,tavuk
+سمك,balık
+بيض,yumurta
+جبن,peynir
+حليب,süt
+زبدة,tereyağı
+ملح,tuz
+سكر,şeker
+فلفل,biber
+زيت,yağ
+خل,sirke
+ماء,su
+قهوة,kahve
+شاي,çay
+عصير,meyve suyu
+حساء,çorba
+سلطة,salata
+شطيرة,sandviç
+كعكة,pasta
+مثلجات,dondurma
+بسكويت,bisküvi
+شوكولاتة,çikolata
+حلوى,şeker
+بطاطا,patates
+طماطم,domates
+بصل,soğan
+ثوم,sarımsak
+جزر,havuç
+خس,marul
+خيار,salatalık
+فطر,mantar
+سبانخ,ıspanak
+ذرة,mısır
+فاصوليا,fasulye
+باذنجان,patlıcan
+كوسا,kabak
+فلفل أخضر,yeşil biber
+ملفوف,lahana
+قرنبيط,karnabahar
+بروكلي,brokoli
+بازلاء,bezelye
+عدس,mercimek
+حمص,nohut
+زيتون,zeytin
+تمر,hurma
+تين,incir
+مشمش,kayısı
+رمان,nar
+أناناس,ananas
+جوز هند,hindistancevizi
+لوز,badem
+جوز,ceviz
+فستق,fıstık
+عسل,bal
+مربى,reçel
+لبن,yoğurt
+آيس كريم,dondurma
+فطيرة,börek
+خضار,sebze
+فاكهة,meyve
+وجبة,öğün
+فطور,kahvaltı
+غداء,öğle yemeği
+عشاء,akşam yemeği
+مقبلات,meze
+طبق رئيسي,ana yemek
+حلوى,tatlı
+مشروب,içecek
+كلب,köpek
+قطة,kedi
+عصفور,kuş
+سمكة,balık
+حصان,at
+بقرة,inek
+خنزير,domuz
+خروف,koyun
+دجاجة,tavuk
+بطة,ördek
+أرنب,tavşan
+فأر,fare
+أفعى,yılan
+سلحفاة,kaplumbağa
+ضفدع,kurbağa
+فراشة,kelebek
+نحلة,arı
+نملة,karınca
+عنكبوت,örümcek
+ذبابة,sinek
+قرش,köpek balığı
+حوت,balina
+دلفين,yunus
+أخطبوط,ahtapot
+سرطان,yengeç
+نسر,kartal
+بومة,baykuş
+ببغاء,papağan
+بطريق,penguen
+قرد,maymun
+دب,ayı
+أسد,aslan
+نمر,kaplan
+فيل,fil
+زرافة,zürafa
+حمار وحشي,zebra
+ذئب,kurt
+ثعلب,tilki
+غزال,geyik
+سنجاب,sincap
+خفاش,yarasa
+تمساح,timsah
+جمل,deve
+غوريلا,goril
+وحيد القرن,gergedan
+فرس النهر,su aygırı
+فهد,çita
+نمر أسود,panter
+صقر,şahin
+حمامة,güvercin
+غراب,karga
+ديك,horoz
+إوزة,kaz
+طاووس,tavus kuşu
+لقلق,leylek
+نعامة,devekuşu
+حرباء,bukalemun
+سحلية,kertenkele
+عقرب,akrep
+قنفذ,kirpi
+حلزون,salyangoz
+دودة,solucan
+فقمة,fok
+ثور,boğa
+حمار,eşek
+ماعز,keçi
+ديك رومي,hindi
+سلمون,somon
+تونة,ton balığı
+محار,midye
+روبيان,karides
+نسر ذهبي,altın kartal
+كركدن,gergedan
+فلامنغو,flamingo
+مرحبا,merhaba
+مع السلامة,hoşça kal
+صباح الخير,günaydın
+مساء الخير,iyi akşamlar
+تصبح على خير,iyi geceler
+من فضلك,lütfen
+شكراً,teşekkürler
+عفواً,rica ederim
+آسف,özür dilerim
+عذراً,pardon
+كيف حالك؟,nasılsın?
+بخير,iyiyim
+سيء,kötü
+ما الأخبار؟,ne var ne yok?
+تشرفنا,memnun oldum
+أهلاً وسهلاً,hoş geldiniz
+إلى اللقاء,görüşürüz
+إلى الغد,yarın görüşürüz
+ما اسمك؟,adın ne?
+اسمي,benim adım
+من أين أنت؟,nerelisin?
+أنا من,ben ...liyim
+هل تتكلم الإنجليزية؟,İngilizce biliyor musun?
+لا أفهم,anlamıyorum
+هل يمكنك الإعادة؟,tekrar eder misin?
+بكم هذا؟,bu ne kadar?
+أين؟,nerede?
+كم الساعة؟,saat kaç?
+أحتاج مساعدة,yardıma ihtiyacım var
+هل يمكنني؟,yapabilir miyim?
+بالطبع,tabii ki
+حسناً,tamam
+في صحتك,şerefe
+مبروك,tebrikler
+عيد ميلاد سعيد,mutlu yıllar
+حظاً سعيداً,iyi şanslar
+انتبه!,dikkat et!
+لا تقلق,merak etme
+أحبك,seni seviyorum
+اشتقت لك,seni özledim
+ماذا يحدث؟,ne oluyor?
+لا شيء,hiçbir şey
+كل شيء بخير,her şey yolunda
+نراكم,görüşürüz
+اعتنِ بنفسك,kendine iyi bak
+عائلة,aile
+بيت,ev
+مدرسة,okul
+عمل,iş
+وقت,zaman
+يوم,gün
+ليل,gece
+أسبوع,hafta
+شهر,ay
+سنة,yıl
+اليوم,bugün
+غداً,yarın
+أمس,dün
+الآن,şimdi
+دائماً,her zaman
+أبداً,asla
+مال,para
+متجر,mağaza
+مستشفى,hastane
+شرطة,polis
+إطفائي,itfaiyeci
+طبيب,doktor
+كتاب,kitap
+هاتف,telefon
+حاسوب,bilgisayar
+مفتاح,anahtar
+باب,kapı
+نافذة,pencere
+طاولة,masa
+كرسي,sandalye
+سرير,yatak
+ملابس,kıyafet
+حذاء,ayakkabı
+قميص,gömlek
+بنطال,pantolon
+فستان,elbise
+قبعة,şapka
+نظارات,gözlük
+ساعة,saat
+حقيبة يد,el çantası
+مظلة,şemsiye
+جريدة,gazete
+رسالة,mektup
+مشكلة,sorun
+حل,çözüm
+سؤال,soru
+جواب,cevap
+حقيقة,gerçek
+كذبة,yalan
+حظ,şans
+خطر,tehlike
+آمن,güvenli
+سريع,hızlı
+بطيء,yavaş
+كبير,büyük
+صغير,küçük
+جديد,yeni
+قديم,eski
+جميل,güzel
+قبيح,çirkin
+سهل,kolay
+صعب,zor
+حار,sıcak
+بارد,soğuk
+طويل,uzun
+قصير,kısa
+ثقيل,ağır
+خفيف,hafif
+مفتوح,açık
+مغلق,kapalı
+صحيح,doğru
+خاطئ,yanlış
+مهم,önemli
+ممكن,mümkün
+مستحيل,imkansız
+ضروري,gerekli
+مجاني,ücretsiz
+غالي,pahalı
+رخيص,ucuz
+قوي,güçlü
+ضعيف,zayıf
+سعيد,mutlu
+حزين,üzgün
+غاضب,kızgın
+متعب,yorgun
+جائع,aç
+عطشان,susuz
+مريض,hasta
+صحي,sağlıklı
+ذكي,zeki
+غبي,aptal
+شجاع,cesur
+خائف,korkak
+كسول,tembel
+نشيط,enerjik
+صادق,dürüst
+كاذب,yalancı
+كريم,cömert
+بخيل,cimri
+صبور,sabırlı
+لطيف,nazik
+وقح,kaba
+هادئ,sakin
+صاخب,gürültülü
+نظيف,temiz
+وسخ,kirli
+رطب,nemli
+جاف,kuru
+مشمس,güneşli
+غائم,bulutlu
+ماطر,yağmurlu
+عاصف,fırtınalı
+ثلج,kar
+رياح,rüzgar
+شمس,güneş
+قمر,ay
+نجمة,yıldız
+سماء,gökyüzü
+بحر,deniz
+نهر,nehir
+جبل,dağ
+غابة,orman
+صحراء,çöl
+جزيرة,ada
+شاطئ,plaj
+بحيرة,göl
+وادي,vadi
+كهف,mağara
+حديقة,bahçe
+شجرة,ağaç
+وردة,gül
+عشب,çimen
+حجر,taş
+رمل,kum
+تراب,toprak
+هواء,hava
+نار,ateş
+دخان,duman
+ظل,gölge
+ضوء,ışık
+ظلام,karanlık
+لون,renk
+أحمر,kırmızı
+أزرق,mavi
+أخضر,yeşil
+أصفر,sarı
+أبيض,beyaz
+أسود,siyah
+بنفسجي,mor
+برتقالي,turuncu
+وردي,pembe
+رمادي,gri
+بني,kahverengi
+ذهبي,altın
+فضي,gümüş

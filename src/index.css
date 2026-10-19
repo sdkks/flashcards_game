@@ -1,0 +1,145 @@
+:root {
+  color-scheme: light;
+  --color-bg: #F6F7F9;
+  --color-surface: #FFFFFF;
+  --color-text: #20242C;
+  --color-text-secondary: #586174;
+  --color-primary: #3459A6;
+  --color-primary-hover: #294885;
+  --color-primary-text: #FFFFFF;
+  --color-accent: var(--color-primary);
+  --color-border: #D9DEE7;
+  --color-control-border: #7B8494;
+  --color-error: #A92335;
+  --color-error-bg: #FDECEF;
+  --color-success: #176747;
+  --color-success-bg: #E5F4EC;
+  --color-danger-bg: #AC2436;
+  --color-danger-hover: #8C1D2D;
+  --color-danger-text: #FFFFFF;
+  --color-shadow: rgba(25, 30, 40, 0.08);
+  --color-card-front: linear-gradient(135deg, #344563 0%, #3F5576 100%);
+  --color-card-back: linear-gradient(135deg, #3E4E4B 0%, #53645F 100%);
+  --radius: 8px;
+  --radius-lg: 16px;
+  --transition: 0.2s ease;
+  --max-width: 600px;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #151922;
+  --color-surface: #202631;
+  --color-text: #E7EBF2;
+  --color-text-secondary: #AFB8C8;
+  --color-primary: #9DBAFF;
+  --color-primary-hover: #BDD0FF;
+  --color-primary-text: #121D33;
+  --color-border: #3C4555;
+  --color-control-border: #7D889B;
+  --color-error: #FFB4BF;
+  --color-error-bg: #3C1C25;
+  --color-success: #83DFB2;
+  --color-success-bg: #17392C;
+  --color-shadow: rgba(0, 0, 0, 0.30);
+}
+
+/* Card-face identity stays stable across light and dark appearances. */
+[data-palette="paper"] {
+  --color-bg: #F8F4EC;
+  --color-surface: #FFFDFA;
+  --color-text: #302B25;
+  --color-text-secondary: #6B6257;
+  --color-primary: #995126;
+  --color-primary-hover: #7B3F1E;
+  --color-primary-text: #FFFFFF;
+  --color-border: #E1D8CA;
+  --color-control-border: #938576;
+  --color-card-front: linear-gradient(135deg, #6C4E3C 0%, #805D46 100%);
+  --color-card-back: linear-gradient(135deg, #5C506D 0%, #72617F 100%);
+}
+
+[data-palette="paper"][data-theme="dark"] {
+  --color-bg: #211D19;
+  --color-surface: #2C2721;
+  --color-text: #F3EDE3;
+  --color-text-secondary: #BDB0A0;
+  --color-primary: #E9B485;
+  --color-primary-hover: #F1C49B;
+  --color-primary-text: #2A1E14;
+  --color-border: #484035;
+  --color-control-border: #8D8071;
+}
+
+[data-palette="iris"] {
+  --color-bg: #F6F4FB;
+  --color-surface: #FFFFFF;
+  --color-text: #2B2536;
+  --color-text-secondary: #665B75;
+  --color-primary: #6D43A6;
+  --color-primary-hover: #583487;
+  --color-primary-text: #FFFFFF;
+  --color-border: #E0D8EA;
+  --color-control-border: #8B7F9A;
+  --color-card-front: linear-gradient(135deg, #563A8A 0%, #6C4FA3 100%);
+  --color-card-back: linear-gradient(135deg, #385270 0%, #476486 100%);
+}
+
+[data-palette="iris"][data-theme="dark"] {
+  --color-bg: #1D1927;
+  --color-surface: #292334;
+  --color-text: #F2ECFB;
+  --color-text-secondary: #BEB1D0;
+  --color-primary: #C7ACF2;
+  --color-primary-hover: #D9C5F7;
+  --color-primary-text: #271B3B;
+  --color-border: #473C56;
+  --color-control-border: #93849F;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  min-height: 100dvh;
+  transition: background-color var(--transition), color var(--transition);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    transition: none;
+  }
+}
+
+#app {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+}
+
+input, select {
+  font: inherit;
+  color: inherit;
+}

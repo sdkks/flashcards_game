@@ -1,0 +1,303 @@
+question|answer
+Large Language Model|Massive neural network trained on text data capable of generating and understanding human language
+Foundation Model|Large pretrained model adaptable to many downstream tasks through fine-tuning or prompting
+Transformer Architecture|Neural network design using self-attention to process all sequence positions in parallel
+Self-Attention|Mechanism where each token attends to every other token in the sequence to capture context
+Multi-Head Attention|Running multiple attention operations in parallel to capture different relationship types
+Positional Encoding|Adding position information to token embeddings since transformers lack inherent sequence order
+Token|Basic unit of text processed by a language model such as a word subword or character
+Tokenization|Splitting raw text into tokens that can be processed by the model's vocabulary
+Context Window|Maximum number of tokens a language model can process in a single input and output
+Prompt|Input text given to a language model to guide its response or behavior
+Prompt Engineering|Designing and refining input prompts to elicit desired outputs from language models
+System Prompt|Instructions defining the model's role behavior and constraints for a conversation
+User Prompt|The end user's message or question sent to the model for a response
+Few-Shot Prompting|Including a few input-output examples in the prompt to guide model behavior
+Zero-Shot Prompting|Asking the model to perform a task without providing any examples in the prompt
+One-Shot Prompting|Providing exactly one example in the prompt to guide the model's response format
+Chain of Thought|Prompting technique guiding the model to reason step by step before giving a final answer
+Tree of Thought|Extension of chain of thought exploring multiple reasoning branches before selecting the best
+Step-by-Step Reasoning|Breaking a complex problem into sequential logical steps for the model to follow
+Self-Consistency|Generating multiple reasoning paths and selecting the most frequent or agreed-upon answer
+Reflection Prompting|Asking the model to review and critique its own output before finalizing the response
+Iterative Refinement|Repeatedly improving model output through successive rounds of feedback and revision
+Role Prompting|Assigning the model a specific persona or expertise to shape the style and depth of response
+Instruction Tuning|Fine-tuning a model on datasets of instruction-response pairs to improve following directions
+RLHF|Reinforcement learning from human feedback used to align model outputs with human preferences
+DPO|Direct preference optimization training models on preferred versus rejected response pairs
+Constitutional AI|Training approach using a set of principles to guide model self-improvement and safety
+Alignment|Ensuring AI systems behave according to intended human values goals and instructions
+Guardrails|Rules and filters applied to model inputs and outputs to prevent harmful or unwanted content
+Safety Filters|Automated systems detecting and blocking toxic biased or dangerous model outputs
+Red Teaming|Deliberately probing an AI system to find vulnerabilities failures and unsafe behaviors
+Jailbreaking|Techniques attempting to bypass a model's safety restrictions and content policies
+Prompt Injection|Adversarial input designed to override the model's system instructions or constraints
+Indirect Injection|Malicious instructions hidden in external content the model processes unknowingly
+Hallucination|Model confidently generates factually incorrect fabricated or nonsensical information
+Grounding|Connecting model outputs to verified factual sources to reduce hallucination
+Retrieval Augmented|Combining language model generation with external knowledge retrieval for accuracy
+RAG Pipeline|System that retrieves relevant documents then feeds them to the model for informed generation
+Vector Database|Storage system optimized for similarity search over high-dimensional embedding vectors
+Embedding|Dense numerical vector representation capturing semantic meaning of text or data
+Semantic Search|Finding results based on meaning similarity rather than exact keyword matching
+Chunking|Splitting documents into smaller segments for efficient embedding and retrieval
+Reranking|Reordering retrieved documents by relevance before passing them to the generation model
+Hybrid Search|Combining keyword-based and semantic vector search for more accurate retrieval results
+Knowledge Graph|Structured representation of entities and relationships used to augment model reasoning
+Knowledge Cutoff|Date after which the model has no training data and lacks awareness of recent events
+Fine-Tuning|Further training a pretrained model on domain-specific data to specialize its capabilities
+LoRA|Low-rank adaptation efficiently fine-tuning large models by training small rank decomposition matrices
+QLoRA|Quantized LoRA combining 4-bit quantization with low-rank adaptation for memory-efficient tuning
+Adapter Layers|Small trainable modules inserted into a frozen pretrained model for efficient task adaptation
+Full Fine-Tuning|Updating all parameters of a pretrained model on new data which requires significant compute
+Catastrophic Forgetting|Model loses previously learned knowledge when fine-tuned on new data
+Quantization|Reducing numerical precision of model weights to decrease memory usage and speed up inference
+INT8 Quantization|Converting model weights from floating point to 8-bit integers for efficient deployment
+GGUF Format|File format for storing quantized language models optimized for local CPU inference
+Model Distillation|Training a smaller student model to replicate the behavior of a larger teacher model
+Pruning|Removing unnecessary weights or connections from a neural network to reduce its size
+Model Compression|Techniques reducing model size and compute while maintaining acceptable performance
+Speculative Decoding|Using a small draft model to propose tokens verified by the large model for faster output
+KV Cache|Storing computed key-value pairs from previous tokens to avoid redundant computation during generation
+Attention Sink|First few tokens receiving disproportionate attention scores enabling efficient streaming inference
+Sparse Attention|Computing attention only for a subset of token pairs to reduce quadratic complexity
+Flash Attention|Memory-efficient attention algorithm that avoids materializing the full attention matrix
+Mixture of Experts|Architecture routing each input to a subset of specialized sub-networks for efficiency
+MoE Routing|Mechanism deciding which expert networks process each token in a mixture of experts model
+Inference|Using a trained model to generate predictions or outputs on new input data
+Batch Inference|Processing multiple inputs simultaneously to maximize throughput during model inference
+Streaming Output|Delivering model-generated tokens incrementally as they are produced rather than all at once
+Temperature|Parameter controlling randomness in output generation where lower values mean more deterministic
+Top-K Sampling|Restricting token selection to the K most probable next tokens during generation
+Top-P Sampling|Selecting from the smallest set of tokens whose cumulative probability exceeds threshold P
+Nucleus Sampling|Another name for top-p sampling choosing from the probability mass nucleus of likely tokens
+Beam Search|Decoding strategy maintaining multiple candidate sequences and selecting the highest scoring one
+Greedy Decoding|Always selecting the single most probable next token at each generation step
+Repetition Penalty|Discouraging the model from generating the same tokens or phrases repeatedly
+Stop Sequence|Predefined token or string that signals the model to stop generating further output
+Logits|Raw unnormalized scores output by the model before applying softmax to get probabilities
+Softmax|Function converting logits into a normalized probability distribution over the vocabulary
+Perplexity|Metric measuring how well a language model predicts text where lower values indicate better fit
+BLEU Score|Metric evaluating generated text quality by comparing n-gram overlap with reference text
+ROUGE Score|Recall-oriented metric comparing generated summaries against reference summaries
+BERTScore|Evaluation metric using contextual embeddings to measure semantic similarity of generated text
+Human Evaluation|Assessment of model outputs by human judges for quality relevance and accuracy
+Benchmark|Standardized dataset or task used to objectively compare model performance
+Leaderboard|Public ranking of models by performance scores on standard benchmarks
+Agentic AI|AI systems that autonomously plan execute and adapt multi-step tasks toward a goal
+AI Agent|Autonomous system using an LLM to reason plan and take actions to accomplish objectives
+Agent Loop|Iterative cycle where an agent observes reasons decides and acts then repeats
+ReAct Pattern|Framework combining reasoning traces and action steps in an interleaved loop
+Plan and Execute|Agent pattern that creates a full plan first then executes steps sequentially
+Task Decomposition|Breaking a complex goal into smaller manageable subtasks for an agent to handle
+Tool Use|Ability of an AI agent to invoke external tools APIs or functions to accomplish tasks
+Function Calling|LLM generating structured output that triggers execution of predefined external functions
+Tool Selection|Agent deciding which available tool is most appropriate for the current subtask
+Tool Orchestration|Coordinating multiple tool calls in sequence or parallel to complete a complex task
+Parallel Tool Calls|Agent invoking multiple independent tools simultaneously to improve efficiency
+Sequential Reasoning|Agent processing steps one after another where each depends on the previous result
+Multi-Agent System|Multiple AI agents collaborating or competing to solve problems collectively
+Agent Handoff|Transferring control from one specialized agent to another during task execution
+Agent Supervisor|Coordinating agent that delegates tasks to and monitors other worker agents
+Swarm Intelligence|Emergent collective behavior from many simple agents following local rules
+Debate Framework|Multiple agents argue different positions to reach more accurate conclusions
+Agent Memory|Storage mechanism allowing agents to retain and recall information across interactions
+Short-Term Memory|Information held during the current conversation or task execution session
+Long-Term Memory|Persistent storage of facts preferences and experiences across multiple sessions
+Episodic Memory|Recording specific past interactions and events for future agent reference
+Semantic Memory|Storing general knowledge facts and concepts an agent has learned over time
+Working Memory|Active information the agent is currently processing and reasoning about
+Memory Retrieval|Searching and fetching relevant stored information when needed for current context
+Scratchpad|Temporary workspace where an agent records intermediate reasoning steps and notes
+Observation|Information the agent receives from the environment or tool execution results
+Action Space|Set of all possible actions an agent can take in a given state or context
+State Management|Tracking and updating the current situation context and progress of an agent
+Environment|External world or system the agent interacts with and receives feedback from
+Feedback Loop|Mechanism where agent output results inform and improve subsequent agent actions
+Error Recovery|Agent detecting and correcting mistakes or handling failures during task execution
+Self-Correction|Agent identifying errors in its own reasoning or output and autonomously fixing them
+Retry Logic|Automatically reattempting failed operations with adjusted parameters or approaches
+Graceful Degradation|Agent maintaining partial functionality when some capabilities or tools fail
+Autonomy Level|Degree of independence an agent has to make decisions without human approval
+Human in the Loop|Requiring human review or approval at critical decision points in agent workflows
+Approval Workflow|System requiring explicit human confirmation before agents execute high-impact actions
+Escalation|Agent recognizing when a task exceeds its capability and requesting human intervention
+Delegation|Agent assigning subtasks to other agents or tools based on their capabilities
+MCP|Model Context Protocol standard for connecting AI models to external tools and data sources
+MCP Server|Service exposing tools resources and prompts to AI models via the Model Context Protocol
+MCP Client|Application that connects to MCP servers to access their tools and resources
+MCP Transport|Communication layer handling message exchange between MCP clients and servers
+MCP Tool|Function exposed by an MCP server that an AI model can invoke to perform actions
+MCP Resource|Data source exposed by an MCP server that provides context to the AI model
+MCP Prompt|Reusable prompt template exposed by an MCP server for consistent model interactions
+MCP Sampling|Capability allowing an MCP server to request the AI model to generate text completions
+Stdio Transport|MCP communication over standard input and output streams for local process connections
+SSE Transport|MCP communication using server-sent events over HTTP for remote server connections
+Tool Schema|JSON definition describing a tool's name parameters and expected input format
+Tool Result|Structured output returned by a tool after execution for the model to process
+Resource URI|Unique identifier for an MCP resource following a URI scheme for consistent access
+Resource Template|Parameterized URI pattern for dynamically accessing families of related MCP resources
+Server Discovery|Process of finding and connecting to available MCP servers and their capabilities
+Capability Negotiation|Client and server agreeing on supported features during MCP connection setup
+Tool Listing|Querying an MCP server to discover all available tools and their schemas
+Prompt Template|Predefined structured prompt pattern with variable slots for consistent model interactions
+Dynamic Prompts|Prompt templates that adapt their content based on runtime context or parameters
+Context Injection|Adding relevant external information into the model's input at inference time
+Context Management|Strategies for selecting and prioritizing information within limited context windows
+Context Compression|Reducing the token count of context while preserving essential information
+Sliding Window|Moving a fixed-size context window through a longer conversation or document
+Summarization|Condensing longer text into shorter form while retaining key information and meaning
+Conversation History|Record of previous messages in a dialogue used to maintain coherent interactions
+System Message|Initial instruction defining model behavior that persists throughout the conversation
+Message Roles|Distinct types like system user and assistant organizing conversation structure
+Structured Output|Model generating responses in specified formats like JSON XML or markdown
+JSON Mode|Constraining model output to valid JSON format for reliable programmatic parsing
+Schema Validation|Verifying that model output conforms to a predefined data structure definition
+Output Parsing|Extracting structured data from model-generated text for downstream processing
+Regex Extraction|Using regular expressions to pull specific patterns from model output text
+Streaming Parsing|Processing and extracting structured data from model output as it arrives incrementally
+Middleware|Software layer between the client and model handling preprocessing and postprocessing
+Orchestration Layer|System coordinating multiple components like models tools and memory in an AI pipeline
+Workflow Engine|System managing the execution order dependencies and state of multi-step AI processes
+DAG Workflow|Directed acyclic graph defining task dependencies and execution order for agents
+Event-Driven Agent|Agent that reacts to external events or triggers rather than running continuously
+Cron Agent|Agent scheduled to run at regular time intervals for recurring automated tasks
+Webhook Trigger|External HTTP callback that initiates an agent workflow when an event occurs
+API Gateway|Entry point managing routing authentication and rate limiting for AI service endpoints
+Rate Limiting|Controlling the frequency of API calls to prevent abuse and manage resource usage
+Token Budget|Maximum number of tokens allocated for a request including input and output combined
+Cost Optimization|Strategies to reduce API and compute costs while maintaining output quality
+Caching|Storing previous model responses to serve identical or similar requests without recomputation
+Semantic Caching|Caching responses based on meaning similarity rather than exact input matching
+Prompt Caching|Reusing precomputed representations of common prompt prefixes to reduce latency
+Latency|Time delay between sending a request and receiving the complete model response
+Throughput|Number of requests or tokens a system can process per unit of time
+Scaling|Adjusting compute resources to handle varying workload demands for AI services
+Load Balancing|Distributing requests across multiple model instances to optimize performance
+Model Router|System directing requests to different models based on task complexity or requirements
+Fallback Model|Secondary model used when the primary model is unavailable or returns errors
+A/B Testing|Comparing two model variants or prompts by splitting traffic to measure performance
+Evaluation Pipeline|Automated system for testing and scoring model outputs against defined criteria
+Regression Testing|Verifying that model updates do not degrade performance on previously passing cases
+Unit Test Prompts|Testing individual prompts in isolation to verify they produce expected outputs
+Golden Dataset|Curated set of input-output pairs used as ground truth for model evaluation
+Prompt Versioning|Tracking changes to prompts over time for reproducibility and rollback capability
+Prompt Library|Organized collection of tested and validated prompts for reuse across applications
+Prompt Chaining|Connecting multiple prompts where each step's output feeds into the next step's input
+Sequential Chain|Prompts executed one after another with each output passed to the next prompt
+Parallel Chain|Multiple independent prompts executed simultaneously with results combined afterward
+Conditional Chain|Branching prompt execution based on the content or classification of previous outputs
+Router Chain|Directing input to different specialized prompt chains based on intent or category
+Map-Reduce Chain|Processing multiple chunks independently then combining results into a final output
+Summarize-Map-Reduce|Splitting long documents into chunks summarizing each then combining all summaries
+Refine Chain|Iteratively improving output by processing each chunk while carrying forward context
+Coding Agent|AI agent specialized in writing debugging and refactoring source code
+Code Generation|Model producing source code from natural language descriptions or specifications
+Code Review Agent|Agent that analyzes code changes for bugs style issues and improvement suggestions
+Test Generation|Automatically creating unit tests or test cases from existing code or specifications
+Documentation Agent|Agent that generates or updates documentation from source code and comments
+Debugging Agent|Agent that diagnoses and fixes software bugs through reasoning and code analysis
+Refactoring Agent|Agent that improves code structure and quality without changing external behavior
+Research Agent|Agent that searches synthesizes and summarizes information from multiple sources
+Data Agent|Agent specialized in querying analyzing and visualizing structured data
+Web Browsing Agent|Agent that navigates web pages extracts content and performs online research
+File System Agent|Agent that reads writes and manages files and directories on local storage
+Database Agent|Agent that constructs and executes database queries to retrieve or modify data
+Email Agent|Agent that composes sends reads and organizes email communications
+Calendar Agent|Agent that manages scheduling events reminders and availability coordination
+Customer Support Agent|Agent handling user inquiries troubleshooting and ticket resolution
+Sales Agent|Agent that engages prospects qualifies leads and assists in sales conversations
+Content Agent|Agent that creates edits and publishes written content across platforms
+Translation Agent|Agent specialized in translating text between languages with cultural awareness
+Multimodal Model|Model capable of processing and generating multiple data types like text images and audio
+Vision Language Model|Model that jointly understands images and text for visual question answering
+Image Generation|Creating new images from text descriptions or other visual inputs
+Audio Model|Model that processes generates or transcribes speech and other audio signals
+Video Understanding|Model capability to analyze interpret and describe video content
+OCR Integration|Using optical character recognition to extract text from images for model processing
+Embedding Model|Model specifically designed to produce dense vector representations of input data
+Reranker Model|Specialized model that rescores and reorders candidate results for improved relevance
+Classifier Model|Model trained to categorize inputs into predefined classes or labels
+Sentiment Analysis|Determining the emotional tone or opinion expressed in a piece of text
+Named Entity Recognition|Identifying and classifying named entities like people places and organizations in text
+Text Summarization|Automatically producing concise summaries of longer documents or conversations
+Question Answering|Model extracting or generating answers to questions based on provided context
+Information Extraction|Pulling structured facts and relationships from unstructured text documents
+Intent Classification|Determining the purpose or goal behind a user's input message
+Slot Filling|Extracting specific parameter values from user input to complete a structured request
+Dialogue Management|Controlling conversation flow state transitions and response selection in chat systems
+Conversation Design|Planning the structure tone and branching logic of AI-powered dialogues
+Persona Design|Crafting a consistent character voice and behavioral style for an AI assistant
+Guardrail Testing|Systematically verifying that safety filters and content policies work as intended
+Toxicity Detection|Identifying harmful offensive or inappropriate content in text
+Bias Detection|Finding systematic unfairness or prejudice in model outputs across different groups
+Fairness Metrics|Quantitative measures assessing whether model performance is equitable across demographics
+Explainability|Ability to understand and communicate why a model produced a specific output
+Interpretability|Degree to which humans can understand the internal reasoning of a model
+Attention Visualization|Displaying which input tokens the model focuses on when generating each output token
+Confidence Score|Numerical measure of how certain the model is about a particular prediction or output
+Uncertainty Estimation|Quantifying how unsure a model is about its predictions for risk assessment
+Calibration|Ensuring model confidence scores accurately reflect the true probability of correctness
+Active Learning|Selecting the most informative unlabeled samples for human annotation to improve the model
+Continual Learning|Model ability to learn from new data over time without forgetting previous knowledge
+Online Learning|Updating model parameters incrementally as new data arrives in real time
+Curriculum Learning|Training a model on examples ordered from simple to complex for improved learning
+Data Flywheel|Virtuous cycle where model usage generates data that further improves the model
+Synthetic Data|Artificially generated training data created by models or algorithms rather than collected
+Data Labeling|Process of annotating raw data with correct output labels for supervised training
+Annotation Pipeline|Workflow system for efficiently labeling and quality-checking training data at scale
+Data Cleaning|Removing errors duplicates and inconsistencies from datasets before training
+Data Poisoning|Adversarial attack corrupting training data to manipulate model behavior
+Prompt Leaking|Extracting the hidden system prompt from a model through crafted user inputs
+Model Extraction|Recreating a proprietary model's behavior by querying it and training on its outputs
+Watermarking|Embedding detectable signals in model outputs to identify AI-generated content
+Content Fingerprinting|Techniques for tracing and identifying the origin of AI-generated content
+Responsible AI|Practices ensuring AI systems are developed and deployed ethically and safely
+AI Governance|Frameworks policies and oversight structures for managing AI development and use
+Model Card|Documentation describing a model's capabilities limitations and intended use cases
+Deployment Pipeline|Automated process for packaging testing and releasing AI models to production
+Model Serving|Infrastructure for hosting and serving model inference at scale in production
+Edge Deployment|Running AI models on local devices rather than cloud servers for low latency
+Serverless Inference|Running model inference on demand without managing persistent server infrastructure
+Containerized Model|Packaging a model and its dependencies in a container for consistent deployment
+Model Registry|Central repository for storing versioning and managing trained model artifacts
+Feature Store|Centralized system for storing and serving precomputed features for model training and inference
+MLOps|Practices for deploying monitoring and maintaining machine learning systems in production
+LLMOps|Operational practices specific to managing large language model applications in production
+Observability|Monitoring and understanding AI system behavior through logs metrics and traces
+Token Tracking|Monitoring token usage across requests for cost management and optimization
+Prompt Logging|Recording prompts and responses for debugging evaluation and compliance
+Drift Detection|Identifying when model performance degrades because input data patterns have changed
+Model Monitoring|Continuously tracking model performance accuracy and behavior in production
+Incident Response|Procedures for detecting diagnosing and resolving AI system failures or safety issues
+Rollback|Reverting to a previous model version or configuration when issues are detected
+Canary Deployment|Gradually routing traffic to a new model version while monitoring for problems
+Shadow Deployment|Running a new model in parallel with production without serving its outputs to users
+Agentic Workflow|End-to-end automated process where AI agents handle planning execution and verification
+Tool Authentication|Securely managing credentials and permissions when agents access external services
+Sandbox Execution|Running agent-generated code in an isolated environment to prevent system damage
+Code Interpreter|Runtime that executes code generated by the model and returns results as context
+REPL Agent|Agent with access to a read-eval-print loop for interactive code execution and testing
+Git Integration|Agent capability to interact with version control for commits branches and pull requests
+CI/CD Agent|Agent managing continuous integration and deployment pipelines automatically
+Infrastructure Agent|Agent that provisions configures and manages cloud or server infrastructure
+Monitoring Agent|Agent that watches system metrics and alerts or acts when anomalies are detected
+Log Analysis Agent|Agent that parses and interprets system logs to diagnose issues automatically
+Compliance Agent|Agent ensuring outputs and actions adhere to regulatory and policy requirements
+Audit Trail|Immutable record of all agent actions decisions and tool calls for accountability
+Chain of Verification|Agent verifying its own claims by generating and checking follow-up questions
+Fact Checking Agent|Agent that validates claims against authoritative sources before presenting them
+Citation Generation|Including source references in model outputs to support verifiability
+Source Attribution|Linking generated content back to the specific documents it was derived from
+Confidence Routing|Directing low-confidence queries to more capable models or human reviewers
+Ensemble Inference|Combining outputs from multiple models to produce more accurate final results
+Model Merging|Combining weights from multiple fine-tuned models into a single unified model
+Preference Learning|Training models to understand and predict human preferences from comparison data
+Reward Model|Neural network trained to score outputs based on how well they match human preferences
+Reward Hacking|Model exploiting flaws in the reward function to get high scores without true quality
+Prompt Fuzzing|Systematically testing prompts with edge cases to find failure modes and vulnerabilities
+Adversarial Testing|Deliberately crafting challenging inputs to evaluate model robustness and safety
+Stress Testing|Evaluating model performance under extreme load or unusual input conditions
+Capability Elicitation|Techniques for discovering and measuring all abilities a model possesses
+Emergent Behavior|Unexpected capabilities or patterns that appear in models at sufficient scale
+Scaling Laws|Mathematical relationships predicting model performance as compute and data increase

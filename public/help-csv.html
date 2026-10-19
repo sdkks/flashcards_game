@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Load Cards by Link — Flashcards Game</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; color: #1a1a2e; background: #f8f9fa; padding: 1.5rem; max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin-bottom: 1rem; }
+  h2 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+  p { margin-bottom: 0.75rem; }
+  a { color: #4361ee; }
+  pre { background: #1a1a2e; color: #e8e8e8; padding: 1rem; border-radius: 8px; overflow-x: auto; font-size: 0.85rem; margin-bottom: 1rem; }
+  code { background: #e9ecef; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.85rem; }
+  .note { background: #fff3cd; border-left: 4px solid #ffc107; padding: 0.75rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
+  .step { margin-bottom: 1.25rem; }
+  .step strong { display: block; margin-bottom: 0.25rem; }
+  ol { padding-left: 1.25rem; margin-bottom: 1rem; }
+  li { margin-bottom: 0.4rem; }
+</style>
+</head>
+<body>
+
+<h1>How to Load Cards by Link</h1>
+
+<p>You can load flashcard data into the app by providing a URL to a CSV file. This guide shows you how to prepare and host your CSV.</p>
+
+<h2>CSV Format</h2>
+
+<p>Your file must have a header row followed by one row per card. Each row has two fields: the question and the answer.</p>
+
+<pre>question,answer
+apple,epal
+door,pintu
+twelve,dua belas</pre>
+
+<h2>Choosing a Separator</h2>
+
+<p>By default the app uses a comma (<code>,</code>) as the delimiter. If your questions or answers contain commas or special characters, switch to the pipe separator (<code>|</code>) in Settings before fetching:</p>
+
+<pre>question|answer
+What is 2+3?|5
+red, white, blue|the colours of the flag
+café|coffee shop</pre>
+
+<p>Supported separators: <code>,</code> (comma), <code>|</code> (pipe), <code>Tab</code>, <code>;</code> (semicolon), <code>:</code> (colon).</p>
+
+<div class="note">Make sure the separator you choose in Settings matches the one used in your CSV file.</div>
+
+<h2>Option 1: GitHub Gist (recommended)</h2>
+
+<div class="step">
+<ol>
+  <li>Go to <a href="https://gist.github.com" target="_blank" rel="noopener">gist.github.com</a> and sign in.</li>
+  <li>Name your file something like <code>my-flashcards.csv</code>.</li>
+  <li>Paste your CSV content and click <strong>Create public gist</strong>.</li>
+  <li>Click the <strong>Raw</strong> button on the file and copy the URL.</li>
+  <li>Paste the raw URL into the <strong>Add by Link</strong> field in the app, or use it as a deeplink: <code>?cards=RAW_URL</code>.</li>
+  <li>Then you can also autoload with a deeplink such as: <a href="https://sdkks.github.io/flashcards_game/?cards=https://gist.githubusercontent.com/sdkks/5adacbd36e01e2e66e6b441a13d5c186/raw/0572d2b74747e7ae33dfc6c00bc8a32c94808027/flashcards-example-dictionary-Spanish-to-English-animals.csv" target="_blank" rel="noopener">Flashcards from Github Gist Raw Data</a></li>
+</ol>
+</div>
+
+<h2>Option 2: Export from a Spreadsheet</h2>
+
+<div class="step">
+<ol>
+  <li>Create your flashcard pairs in any spreadsheet app (column A = question, column B = answer).</li>
+  <li>Export or download as CSV (<strong>File &gt; Download &gt; Comma-separated values</strong>).</li>
+  <li>You can load the downloaded CSV in two ways:
+    <ul>
+      <li><strong>Upload directly</strong> — Open Settings (cog icon) &gt; <strong>Upload CSV</strong> and select the file. This is the quickest option for personal use.</li>
+      <li><strong>Share via link</strong> — Upload the CSV to a public host (e.g., a GitHub Gist) and use the URL in <strong>Add by Link</strong> or as a deeplink (<code>?cards=URL</code>). This lets you share the deck with others.</li>
+    </ul>
+  </li>
+</ol>
+</div>
+
+<h2>Live Example</h2>
+
+<p>Here is a real spreadsheet with flashcard data you can reference:</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1aueeOdOmz80yg1LNXKRCQEvEHVVi8EzQIksiIFuS9g0/view?gid=1676160350#gid=1676160350" target="_blank" rel="noopener">View example spreadsheet</a></p>
+<p>To use it: download the sheet as CSV, then either upload it directly via Settings &gt; Upload CSV, or host it on a Gist and paste the raw URL into the app.</p>
+
+<div class="note">The app runs entirely in your browser. Your data is stored locally and is never sent to any server.</div>
+
+</body>
+</html>

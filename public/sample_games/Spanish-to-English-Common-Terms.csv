@@ -1,0 +1,302 @@
+question,answer
+izquierda,left
+derecha,right
+recto,straight
+norte,north
+sur,south
+este,east
+oeste,west
+arriba,up
+abajo,down
+cerca,near
+lejos,far
+aquí,here
+allí,there
+adelante,forward
+atrás,back
+esquina,corner
+cruce,crossing
+rotonda,roundabout
+semáforo,traffic light
+acera,sidewalk
+calle,street
+avenida,avenue
+carretera,highway
+autopista,motorway
+camino,path
+puente,bridge
+túnel,tunnel
+salida,exit
+entrada,entrance
+parada,stop
+girar,to turn
+cruzar,to cross
+seguir,to follow
+doblar,to turn
+mapa,map
+dirección,direction
+señal,sign
+paso de peatones,crosswalk
+callejón,alley
+plaza,square
+manzana,block
+destino,destination
+ruta,route
+atajo,shortcut
+al lado de,next to
+enfrente de,in front of
+detrás de,behind
+entre,between
+hacia,towards
+alrededor,around
+coche,car
+autobús,bus
+tren,train
+avión,airplane
+bicicleta,bicycle
+moto,motorcycle
+taxi,taxi
+metro,subway
+tranvía,tram
+barco,boat
+ferry,ferry
+helicóptero,helicopter
+camión,truck
+furgoneta,van
+ambulancia,ambulance
+estación,station
+aeropuerto,airport
+puerto,port
+billete,ticket
+asiento,seat
+ventanilla,window seat
+pasillo,aisle
+equipaje,luggage
+maleta,suitcase
+pasaporte,passport
+conductor,driver
+pasajero,passenger
+andén,platform
+vía,track
+embarcar,to board
+aterrizar,to land
+despegar,to take off
+velocidad,speed
+gasolina,gasoline
+rueda,wheel
+motor,engine
+cinturón,seatbelt
+volante,steering wheel
+freno,brake
+acelerador,accelerator
+matrícula,license plate
+aparcamiento,parking
+tráfico,traffic
+atasco,traffic jam
+peaje,toll
+viaje,trip
+ida,one way
+vuelta,return
+horario,schedule
+retraso,delay
+llegada,arrival
+salida,departure
+manzana,apple
+plátano,banana
+naranja,orange
+fresa,strawberry
+uva,grape
+limón,lemon
+sandía,watermelon
+melocotón,peach
+pera,pear
+cereza,cherry
+pan,bread
+arroz,rice
+pasta,pasta
+carne,meat
+pollo,chicken
+pescado,fish
+huevo,egg
+queso,cheese
+leche,milk
+mantequilla,butter
+sal,salt
+azúcar,sugar
+pimienta,pepper
+aceite,oil
+vinagre,vinegar
+agua,water
+café,coffee
+té,tea
+zumo,juice
+cerveza,beer
+vino,wine
+sopa,soup
+ensalada,salad
+bocadillo,sandwich
+tarta,cake
+helado,ice cream
+galleta,cookie
+chocolate,chocolate
+caramelo,candy
+patata,potato
+tomate,tomato
+cebolla,onion
+ajo,garlic
+zanahoria,carrot
+lechuga,lettuce
+pepino,cucumber
+champiñón,mushroom
+pimiento,pepper
+espinaca,spinach
+maíz,corn
+judías,beans
+perro,dog
+gato,cat
+pájaro,bird
+pez,fish
+caballo,horse
+vaca,cow
+cerdo,pig
+oveja,sheep
+gallina,hen
+pato,duck
+conejo,rabbit
+ratón,mouse
+serpiente,snake
+tortuga,turtle
+rana,frog
+mariposa,butterfly
+abeja,bee
+hormiga,ant
+araña,spider
+mosca,fly
+tiburón,shark
+ballena,whale
+delfín,dolphin
+pulpo,octopus
+cangrejo,crab
+águila,eagle
+búho,owl
+loro,parrot
+pingüino,penguin
+mono,monkey
+oso,bear
+león,lion
+tigre,tiger
+elefante,elephant
+jirafa,giraffe
+cebra,zebra
+lobo,wolf
+zorro,fox
+ciervo,deer
+ardilla,squirrel
+murciélago,bat
+cocodrilo,crocodile
+camello,camel
+gorila,gorilla
+rinoceronte,rhinoceros
+hipopótamo,hippopotamus
+leopardo,leopard
+pantera,panther
+hola,hello
+adiós,goodbye
+buenos días,good morning
+buenas tardes,good afternoon
+buenas noches,good night
+por favor,please
+gracias,thank you
+de nada,you are welcome
+lo siento,I am sorry
+perdón,excuse me
+¿cómo estás?,how are you?
+bien,fine
+mal,bad
+¿qué tal?,how's it going?
+encantado,nice to meet you
+bienvenido,welcome
+hasta luego,see you later
+hasta mañana,see you tomorrow
+¿cómo te llamas?,what is your name?
+me llamo,my name is
+¿de dónde eres?,where are you from?
+soy de,I am from
+¿hablas inglés?,do you speak English?
+no entiendo,I don't understand
+¿puedes repetir?,can you repeat?
+¿cuánto cuesta?,how much does it cost?
+¿dónde está?,where is?
+¿qué hora es?,what time is it?
+necesito ayuda,I need help
+¿puedo?,may I?
+claro,of course
+vale,okay
+¡salud!,cheers!
+felicidades,congratulations
+feliz cumpleaños,happy birthday
+buena suerte,good luck
+¡cuidado!,be careful!
+no te preocupes,don't worry
+te quiero,I love you
+te echo de menos,I miss you
+¿qué pasa?,what's happening?
+nada,nothing
+todo bien,all good
+nos vemos,see you
+cuídate,take care
+un abrazo,a hug
+beso,kiss
+amigo,friend
+familia,family
+casa,house
+escuela,school
+trabajo,work
+tiempo,time
+día,day
+noche,night
+semana,week
+mes,month
+año,year
+hoy,today
+mañana,tomorrow
+ayer,yesterday
+ahora,now
+siempre,always
+nunca,never
+dinero,money
+tienda,store
+hospital,hospital
+policía,police
+bombero,firefighter
+médico,doctor
+libro,book
+teléfono,phone
+ordenador,computer
+llave,key
+puerta,door
+ventana,window
+mesa,table
+silla,chair
+cama,bed
+ropa,clothes
+zapatos,shoes
+camisa,shirt
+pantalón,pants
+vestido,dress
+sombrero,hat
+gafas,glasses
+reloj,watch
+bolso,bag
+paraguas,umbrella
+periódico,newspaper
+carta,letter
+problema,problem
+solución,solution
+pregunta,question
+respuesta,answer
+verdad,truth
+mentira,lie
+suerte,luck
+peligro,danger
+seguro,safe

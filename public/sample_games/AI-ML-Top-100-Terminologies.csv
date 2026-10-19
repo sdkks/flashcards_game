@@ -1,0 +1,101 @@
+question|answer
+Artificial Intelligence|Machines performing tasks that typically require human intelligence such as reasoning and learning
+Machine Learning|Subset of AI where systems learn patterns from data without being explicitly programmed
+Deep Learning|ML using multi-layered neural networks to learn hierarchical representations from large datasets
+Neural Network|Computing system inspired by biological neurons connected in layers to process information
+Supervised Learning|Training a model on labeled data where inputs are paired with known correct outputs
+Unsupervised Learning|Training on unlabeled data to discover hidden patterns or groupings without predefined answers
+Reinforcement Learning|Agent learns by interacting with an environment and receiving rewards or penalties for actions
+Natural Language Processing|AI field focused on enabling machines to understand and generate human language
+Computer Vision|AI field enabling machines to interpret and extract information from images and video
+Transfer Learning|Reusing a model trained on one task as the starting point for a different but related task
+Gradient Descent|Optimization algorithm that iteratively adjusts parameters to minimize a loss function
+Backpropagation|Algorithm for computing gradients of the loss function with respect to each weight in a neural network
+Overfitting|Model performs well on training data but poorly on unseen data due to memorizing noise
+Underfitting|Model is too simple to capture the underlying patterns in the training data
+Regularization|Techniques that constrain a model to prevent overfitting such as L1 or L2 penalties
+Cross-Validation|Evaluating model performance by splitting data into multiple train and test subsets
+Feature Engineering|Creating or selecting input variables that improve a model's predictive performance
+Feature Extraction|Transforming raw data into a reduced set of meaningful features for model input
+Hyperparameter Tuning|Searching for the best configuration settings that control the learning process
+Loss Function|Mathematical function measuring how far a model's predictions are from actual values
+Activation Function|Non-linear function applied to a neuron's output to introduce complexity into the network
+Convolutional Network|Neural network using convolutional filters to detect spatial patterns in grid-like data
+Recurrent Network|Neural network with loops allowing information to persist across sequential time steps
+Transformer|Architecture using self-attention to process all positions in a sequence simultaneously
+Attention Mechanism|Allows a model to focus on the most relevant parts of the input when producing output
+Self-Attention|Mechanism where each element in a sequence attends to every other element to capture context
+Generative AI|AI systems that create new content such as text images audio or code
+Large Language Model|Massive neural network trained on text data capable of generating and understanding language
+Fine-Tuning|Adapting a pretrained model to a specific task by training it further on domain data
+Prompt Engineering|Designing input prompts to guide a language model toward producing desired outputs
+Tokenization|Splitting text into smaller units called tokens for processing by language models
+Embedding|Dense vector representation of data that captures semantic relationships in continuous space
+Word Embedding|Mapping words to numerical vectors where similar words have similar representations
+Dimensionality Reduction|Reducing the number of input features while preserving important information
+Principal Components|Technique projecting high-dimensional data onto directions of maximum variance
+Clustering|Grouping similar data points together without predefined labels
+Classification|Predicting which category or class a data point belongs to from predefined options
+Regression|Predicting a continuous numerical value based on input features
+Decision Tree|Model that makes predictions by following a tree of learned if-then rules
+Random Forest|Ensemble of decision trees trained on random subsets of data for better accuracy
+Gradient Boosting|Ensemble method that sequentially builds models each correcting the errors of the previous one
+Support Vector Machine|Algorithm finding the optimal hyperplane that maximally separates classes in feature space
+K-Nearest Neighbors|Classifies a data point based on the majority label of its closest neighbors
+Naive Bayes|Probabilistic classifier based on Bayes theorem assuming feature independence
+Logistic Regression|Linear model for binary classification that outputs probabilities via a sigmoid function
+Linear Regression|Model predicting a continuous output as a weighted sum of input features plus bias
+Bias|Systematic error from assumptions in the model that cause it to miss relevant patterns
+Variance|Model sensitivity to fluctuations in training data leading to inconsistent predictions
+Bias-Variance Tradeoff|Balancing model simplicity against flexibility to minimize total prediction error
+Batch Normalization|Normalizing layer inputs during training to stabilize and accelerate convergence
+Dropout|Regularization technique that randomly deactivates neurons during training to prevent overfitting
+Learning Rate|Hyperparameter controlling how much model weights are updated in each training step
+Epoch|One complete pass through the entire training dataset during model training
+Batch Size|Number of training samples processed before the model updates its parameters
+Mini-Batch|Subset of training data used in one iteration of gradient descent for efficiency
+Stochastic Gradient|Gradient descent variant updating weights using one or a few samples at a time
+Optimizer|Algorithm that adjusts model parameters to minimize the loss such as Adam or SGD
+Momentum|Technique accelerating gradient descent by accumulating velocity from past gradients
+Data Augmentation|Expanding training data by applying transformations like rotation or flipping to existing samples
+Confusion Matrix|Table showing true positives negatives and false positives negatives for classification evaluation
+Precision|Proportion of positive predictions that are actually correct among all positive predictions
+Recall|Proportion of actual positives correctly identified by the model out of all true positives
+F1 Score|Harmonic mean of precision and recall providing a single balanced evaluation metric
+ROC Curve|Graph plotting true positive rate versus false positive rate at various thresholds
+AUC|Area Under the ROC Curve measuring overall classification performance across thresholds
+Accuracy|Proportion of correct predictions out of all predictions made by the model
+Inference|Using a trained model to make predictions on new unseen data
+Training Data|Dataset used to teach a model by adjusting its parameters during the learning process
+Validation Data|Dataset used to tune hyperparameters and evaluate model during training
+Test Data|Held-out dataset used to evaluate final model performance after training is complete
+Ground Truth|The correct or actual labels in a dataset used to measure model accuracy
+Label|Known correct output value associated with an input sample in supervised learning
+Anomaly Detection|Identifying data points that deviate significantly from expected normal patterns
+Generative Adversarial|Two neural networks competing where one generates data and the other evaluates it
+Autoencoder|Neural network that learns to compress data into a latent space then reconstruct it
+Variational Autoencoder|Autoencoder that learns a probabilistic latent space enabling generation of new samples
+Diffusion Model|Generative model that learns to denoise data by reversing a gradual noising process
+Retrieval Augmented|Combining a language model with external knowledge retrieval for more accurate responses
+RLHF|Training language models using human feedback as a reward signal for reinforcement learning
+Hallucination|When an AI model generates confident but factually incorrect or fabricated information
+Zero-Shot Learning|Model performs a task it was never explicitly trained on using general knowledge
+Few-Shot Learning|Model learns from only a handful of labeled examples for a new task
+Chain of Thought|Prompting technique that guides a model to reason step by step before answering
+Contrastive Learning|Training by learning to distinguish similar pairs from dissimilar pairs of examples
+Federated Learning|Training models across decentralized devices without sharing raw data for privacy
+Edge AI|Running AI models directly on local devices rather than relying on cloud servers
+Model Compression|Reducing model size and compute requirements while maintaining acceptable performance
+Quantization|Reducing numerical precision of model weights to decrease size and speed up inference
+Knowledge Distillation|Training a smaller student model to mimic the outputs of a larger teacher model
+Pruning|Removing redundant weights or neurons from a neural network to reduce its complexity
+Neural Architecture|Automated process of designing optimal neural network structures for a given task
+Benchmark|Standardized dataset or task used to compare and evaluate model performance objectively
+BLEU Score|Metric evaluating machine translation quality by comparing n-gram overlap with references
+Perplexity|Metric measuring how well a language model predicts a sample of text lower is better
+Latent Space|Hidden representation space where a model encodes meaningful features of the input data
+Softmax|Function converting raw scores into a probability distribution over multiple classes
+Sigmoid|S-shaped function mapping any input value to a number between zero and one
+ReLU|Activation function outputting the input directly if positive or zero otherwise
+Pooling|Operation reducing spatial dimensions in a neural network by summarizing local regions
+Tensor|Multi-dimensional array of numbers serving as the fundamental data structure in deep learning
